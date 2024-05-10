@@ -1,8 +1,8 @@
 from rest_framework_simplejwt.views import TokenRefreshView
 
-# from .schemas import Documentation
+from .schema import Documentation
 
 
-# @Documentation.REFRESH
+@Documentation.REFRESH
 class CustomRefreshView(TokenRefreshView):
     pass
