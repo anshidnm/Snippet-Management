@@ -137,14 +137,14 @@ DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
 # JWT settings
 SIMPLE_JWT = {
-    "ACCESS_TOKEN_LIFETIME": timedelta(hours=2),
+    "ACCESS_TOKEN_LIFETIME": timedelta(minutes=15),
     "REFRESH_TOKEN_LIFETIME": timedelta(days=3),
 }
 
 # Swagger settings
 SPECTACULAR_SETTINGS = {
     "TITLE": "SNIPPETS MANAGEMENT",
-    "DESCRIPTION": "API Documentaion",
+    "DESCRIPTION": "API Documentaion of snippet management",
     "VERSION": "1.0.0",
     "COMPONENT_SPLIT_REQUEST": True,
 }

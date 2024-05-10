@@ -27,6 +27,7 @@ class SignupSerializer(serializers.ModelSerializer):
     def validate_email(self, email):
         if User.objects.filter(email__iexact=email).exists():
             raise serializers.ValidationError("Email already exists")
+        return email
 
     def create(self, validated_data):
         password = validated_data.pop("password")
