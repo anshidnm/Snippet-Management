@@ -28,4 +28,5 @@ After running the project, swagger UI will be available in the
 '/swagger/' end point
 
 [Swagger UI ](http://localhost:8000/swagger/)
+
 click above link or navigate to http://localhost:8000/swagger/
