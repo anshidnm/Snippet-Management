@@ -164,6 +164,6 @@ REST_FRAMEWORK = {
         "rest_framework.renderers.JSONRenderer",
     ],
     "DEFAULT_PAGINATION_CLASS": "core.pagination.DefaultPagination",
-    "PAGE_SIZE": 20,
+    "PAGE_SIZE": 10,
     "DEFAULT_SCHEMA_CLASS": "drf_spectacular.openapi.AutoSchema",
 }

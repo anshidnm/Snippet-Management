@@ -4,6 +4,16 @@ from rest_framework import serializers
 from rest_framework_simplejwt.tokens import RefreshToken
 
 
+class UserSerialzer(serializers.ModelSerializer):
+    """
+    Serializer to show user info
+    """
+
+    class Meta:
+        model = User
+        fields = ["id", "username", "first_name", "email"]
+
+
 class SignupSerializer(serializers.ModelSerializer):
     """
     Serializer used in user signup functionality.
