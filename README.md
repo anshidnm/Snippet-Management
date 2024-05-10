@@ -5,6 +5,8 @@ It is a snippet management system made by django and Rest framework.
 
 ## Installation
 
+Activate your virtual environment.
+
 Run snippet management system by follwing commands
 
 ```bash
